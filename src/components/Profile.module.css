@@ -1,0 +1,67 @@
+.content {
+    grid-area: c;
+    background-color: #64ac8f;
+    display: grid;
+    grid-template-areas: 
+    "header header header"
+    "avatar descr descr"
+    "posts posts posts";
+    grid-template-rows: 1fr 200px 1fr;
+    grid-template-columns: 20% 1fr 1fr;
+    font-family: Montserrat;
+ }
+ 
+.header {
+   width: 1000px;
+   grid-area: header;
+}
+ 
+.avatar {
+   grid-area: avatar;
+   padding: 24px;
+   grid-area: avatar;
+}
+
+.avatar img {
+  width: 150px;
+  height: 150px;
+}
+
+.descr {
+  grid-area: descr;
+}
+
+.descr_name {
+  margin-top: 16px;
+  margin-bottom: 4px;
+}
+
+.descr_nick {
+  margin-top: 0px;
+  margin-bottom: 4px;
+  font-size: 18px;
+}
+
+.descr hr {
+  border-color: black;
+  margin-right: 24px;
+}
+
+.descr_about p {
+  margin-top: 4px;
+  margin-bottom:4px;
+}
+
+.posts {
+  grid-area: posts;
+  padding: 8px 20px;
+}
+
+.posts h2 {
+  margin-top: 0;
+}
+
+.item {
+   color:black
+}
+
