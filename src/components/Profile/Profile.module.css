@@ -6,7 +6,7 @@
     "header header header"
     "avatar descr descr"
     "posts posts posts";
-    grid-template-rows: 1fr 200px 1fr;
+    grid-template-rows: 294px 200px 1fr;
     grid-template-columns: 20% 1fr 1fr;
     font-family: Montserrat;
  }
@@ -52,16 +52,7 @@
   margin-bottom:4px;
 }
 
-.posts {
-  grid-area: posts;
-  padding: 8px 20px;
-}
 
-.posts h2 {
-  margin-top: 0;
-}
 
-.item {
-   color:black
-}
+
 
