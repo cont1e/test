@@ -6,7 +6,7 @@ const Post = (props) => {
       <img src="https://thumbs.dreamstime.com/b/two-hummingbird-bird-pink-flower-hummingbirds-fiery-throated-hummingbird-flying-next-to-beautiful-bloom-flower-savegre-co-95610310.jpg" />
       <span>{props.message}</span>;
       <div>
-        <span>Likes: {props.likes}</span>
+        <span>Likes: {props.likesCount}</span>
       </div>
     </div>
   );
